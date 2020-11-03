@@ -1,0 +1,74 @@
+# Exported from Fuse 1.3.0
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model18_Shoes_diffuse.png
+map_Ks model18_Shoes_specular.png
+bump model18_Shoes_normal.png
+map_Ns model18_Shoes_gloss.png
+
+newmtl Glove
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model18_Glove_diffuse.png
+map_Ks model18_Glove_specular.png
+bump model18_Glove_normal.png
+map_Ns model18_Glove_gloss.png
+
+newmtl Hat
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model18_Hat_diffuse.png
+map_Ks model18_Hat_specular.png
+bump model18_Hat_normal.png
+map_Ns model18_Hat_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model18_Body_diffuse.png
+map_Ks model18_Body_specular.png
+bump model18_Body_normal.png
+map_Ns model18_Body_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model18_Bottom_diffuse.png
+map_Ks model18_Bottom_specular.png
+bump model18_Bottom_normal.png
+map_Ns model18_Bottom_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model18_Top_diffuse.png
+map_Ks model18_Top_specular.png
+bump model18_Top_normal.png
+map_Ns model18_Top_gloss.png
+

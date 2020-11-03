@@ -1,0 +1,98 @@
+# Exported from Fuse 1.3.0
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Bottom_diffuse.png
+map_Ks model31_Bottom_specular.png
+bump model31_Bottom_normal.png
+map_Ns model31_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Body_diffuse.png
+map_Ks model31_Body_specular.png
+bump model31_Body_normal.png
+map_Ns model31_Body_gloss.png
+
+newmtl Hat
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Hat_diffuse.png
+map_Ks model31_Hat_specular.png
+bump model31_Hat_normal.png
+map_Ns model31_Hat_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Shoes_diffuse.png
+map_Ks model31_Shoes_specular.png
+bump model31_Shoes_normal.png
+map_Ns model31_Shoes_gloss.png
+
+newmtl Moustache
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Moustache_diffuse.png
+map_Ks model31_Moustache_specular.png
+bump model31_Moustache_normal.png
+map_Ns model31_Moustache_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Hair_diffuse.png
+map_Ks model31_Hair_specular.png
+bump model31_Hair_normal.png
+map_Ns model31_Hair_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Top_diffuse.png
+map_Ks model31_Top_specular.png
+bump model31_Top_normal.png
+map_Ns model31_Top_gloss.png
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model31_Beard_diffuse.png
+map_Ks model31_Beard_specular.png
+bump model31_Beard_normal.png
+map_Ns model31_Beard_gloss.png
+

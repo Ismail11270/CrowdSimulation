@@ -1,0 +1,86 @@
+# Exported from Fuse 1.3.0
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Body_diffuse.png
+map_Ks model42_Body_specular.png
+bump model42_Body_normal.png
+map_Ns model42_Body_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Top_diffuse.png
+map_Ks model42_Top_specular.png
+bump model42_Top_normal.png
+map_Ns model42_Top_gloss.png
+
+newmtl Hair
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Hair_diffuse.png
+map_Ks model42_Hair_specular.png
+bump model42_Hair_normal.png
+map_Ns model42_Hair_gloss.png
+
+newmtl Eyewear
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Eyewear_diffuse.png
+map_Ks model42_Eyewear_specular.png
+bump model42_Eyewear_normal.png
+map_Ns model42_Eyewear_gloss.png
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Bottom_diffuse.png
+map_Ks model42_Bottom_specular.png
+bump model42_Bottom_normal.png
+map_Ns model42_Bottom_gloss.png
+
+newmtl Hat
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Hat_diffuse.png
+map_Ks model42_Hat_specular.png
+bump model42_Hat_normal.png
+map_Ns model42_Hat_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model42_Shoes_diffuse.png
+map_Ks model42_Shoes_specular.png
+bump model42_Shoes_normal.png
+map_Ns model42_Shoes_gloss.png
+
