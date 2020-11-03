@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.2
     agentHeight: 2
-    agentSlope: 36.1
+    agentSlope: 23.9
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.06666667
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -128,6 +128,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637902540}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2
@@ -194,6 +198,10 @@ PrefabInstance:
     - target: {fileID: 1410262556438894, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_Name
       value: prefab_umbrella2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941131255985238, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 4584810022843652, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -276,6 +284,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1217,6 +1229,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (6)
@@ -1283,6 +1299,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1351,6 +1371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pot_tree prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1555850710414244, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4790015206267544, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.619713
@@ -1413,6 +1437,14 @@ PrefabInstance:
     - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_Name
       value: Road Curve
+      objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1896,6 +1928,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 52713d517aac90146ae3d3e391e27e59,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e054e07fb4b90874aa085e5aff8e5ce0, type: 2}
     - target: {fileID: 6657560127643677590, guid: 52713d517aac90146ae3d3e391e27e59,
         type: 3}
       propertyPath: m_Layer
@@ -1972,6 +2009,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2976,6 +3017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -3049,6 +3094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.330002
@@ -3108,6 +3157,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 863698395}
     m_Modifications:
+    - target: {fileID: 1186361931580308, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1674700864803382, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
       propertyPath: m_Name
       value: street_lamp 1 prefab (3)
@@ -3171,6 +3224,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (2)
@@ -3238,6 +3295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -3301,6 +3362,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab
@@ -3807,6 +3872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -3873,6 +3942,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3941,6 +4014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.92
@@ -4003,6 +4080,10 @@ PrefabInstance:
     - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_Name
       value: RailingA (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4593,7 +4674,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &260744274
 Transform:
@@ -4666,6 +4747,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5172,6 +5257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -5235,6 +5324,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (7)
@@ -5746,6 +5839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1
       objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.562227
@@ -5809,9 +5906,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2086528686}
     m_Modifications:
+    - target: {fileID: 1358460651352264, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 92
+      objectReference: {fileID: 0}
     - target: {fileID: 1410262556438894, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_Name
       value: prefab_umbrella2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941131255985238, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 4584810022843652, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5888,6 +5993,10 @@ PrefabInstance:
     - target: {fileID: 1520711273483040, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
       propertyPath: m_Name
       value: Big_trash_bin prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809725292833654, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4884130492571914, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6005,6 +6114,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (7)
@@ -6140,6 +6253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -6206,6 +6323,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6274,6 +6395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.504356
@@ -6333,6 +6458,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850677572}
     m_Modifications:
+    - target: {fileID: 1092326577667866, guid: 84bb406b82cecb24cb1ffe5d4359339d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1421433746022104, guid: 84bb406b82cecb24cb1ffe5d4359339d, type: 3}
       propertyPath: m_Name
       value: Building_M_prefab
@@ -6406,6 +6535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.41
@@ -6468,6 +6601,10 @@ PrefabInstance:
     - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_Name
       value: RailingA (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7608,6 +7745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -7674,6 +7815,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7748,6 +7893,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Join SIngleLane
       objectReference: {fileID: 0}
+    - target: {fileID: 128486, guid: 8820d45b6122a1a44b6d1a75e97a5127, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 128486, guid: 8820d45b6122a1a44b6d1a75e97a5127, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 476878, guid: 8820d45b6122a1a44b6d1a75e97a5127, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.214249
@@ -7814,6 +7967,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7882,6 +8039,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.12
@@ -7948,6 +8113,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8029,7 +8198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449471692}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 101.01, y: 0.000015258789, z: 64.89}
+  m_LocalPosition: {x: 118.45, y: 0.000015258789, z: 80.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1751786571}
@@ -8216,6 +8385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.83
@@ -8275,6 +8448,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (6)
@@ -8341,6 +8518,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8927,6 +9112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -8990,6 +9179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (4)
@@ -9056,12 +9249,13 @@ GameObject:
   m_Component:
   - component: {fileID: 540515893}
   - component: {fileID: 540515894}
+  - component: {fileID: 540515895}
   m_Layer: 0
   m_Name: Brushes (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &540515893
 Transform:
@@ -9071,7 +9265,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540515892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.2, y: 0, z: -5.2}
+  m_LocalPosition: {x: -41.53, y: 0, z: -5.2}
   m_LocalScale: {x: 1, y: 1, z: 2.3451}
   m_Children:
   - {fileID: 1262747761}
@@ -9118,8 +9312,48 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1055298, y: 2.2651901, z: 13.65215}
-  m_Center: {x: 6.213814, y: 0.22756195, z: 16.036398}
+  m_Size: {x: 1.1055298, y: 1.3511772, z: 13.65215}
+  m_Center: {x: 6.213814, y: 0.6845684, z: 16.036398}
+--- !u!23 &540515895
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540515892}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 30d9b8fa4fff748419db45be7eb770fd, type: 2}
+  - {fileID: 2100000, guid: 30d9b8fa4fff748419db45be7eb770fd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1001 &546711846
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9127,6 +9361,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (5)
@@ -9193,6 +9431,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9267,6 +9509,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.40000153
@@ -9330,6 +9580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.140003
@@ -9392,6 +9646,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9466,6 +9724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -9533,6 +9795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -9599,6 +9865,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9731,6 +10001,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637902540}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2 (1)
@@ -9798,6 +10072,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Curve (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 105156, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 425130, guid: 834e3b05077e0b445961489bb25da1c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8
@@ -9860,6 +10142,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9965,6 +10251,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (5)
@@ -10641,12 +10931,13 @@ GameObject:
   m_Component:
   - component: {fileID: 697793381}
   - component: {fileID: 697793382}
+  - component: {fileID: 697793383}
   m_Layer: 0
   m_Name: Brushes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &697793381
 Transform:
@@ -10656,7 +10947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697793380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.72, y: 0, z: 0.19}
+  m_LocalPosition: {x: -6.4, y: 0, z: 0.19}
   m_LocalScale: {x: 1, y: 1, z: 2.3451}
   m_Children:
   - {fileID: 704020572}
@@ -10734,6 +11025,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &697793383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697793380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99406433, y: 1.3606758, z: 14.636108}
+  m_Center: {x: 6.5026245, y: 0.7704563, z: 13.691604}
 --- !u!1001 &704020571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10744,6 +11048,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11029,6 +11337,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11974,6 +12290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -12106,6 +12426,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (1)
@@ -12179,6 +12503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -12242,6 +12570,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (6)
@@ -12308,6 +12640,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12376,6 +12716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.550003
@@ -12435,6 +12779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637902540}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2 (1)
@@ -12501,6 +12849,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12569,6 +12921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.020004
@@ -12631,6 +12987,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12698,6 +13058,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: f6cfd9db11feb1b4a8448575304bd10f, type: 3}
       propertyPath: m_Name
       value: RailingA (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6cfd9db11feb1b4a8448575304bd10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f6cfd9db11feb1b4a8448575304bd10f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13316,6 +13680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -13445,6 +13813,10 @@ PrefabInstance:
     - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_Name
       value: RailingA (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13585,6 +13957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.897938
@@ -13651,6 +14027,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 77034832b22fef34387efcaeb7127eaa, type: 3}
       propertyPath: m_Name
       value: Car 2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 77034832b22fef34387efcaeb7127eaa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 77034832b22fef34387efcaeb7127eaa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13719,6 +14099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -13785,6 +14169,10 @@ PrefabInstance:
     - target: {fileID: 1721008042060176, guid: 2bf7da734f1a8224fb14055902b5b343, type: 3}
       propertyPath: m_Name
       value: ColaMachine prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 1825202487461168, guid: 2bf7da734f1a8224fb14055902b5b343, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4330603509456850, guid: 2bf7da734f1a8224fb14055902b5b343, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13854,6 +14242,10 @@ PrefabInstance:
     - target: {fileID: 100848, guid: aed502683c9d9b540b8e9f801bfebaf8, type: 3}
       propertyPath: m_Name
       value: Motor
+      objectReference: {fileID: 0}
+    - target: {fileID: 100848, guid: aed502683c9d9b540b8e9f801bfebaf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 495036, guid: aed502683c9d9b540b8e9f801bfebaf8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14369,6 +14761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.86
@@ -14431,6 +14827,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14498,6 +14898,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15117,6 +15525,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.300003
@@ -15176,6 +15592,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (8)
@@ -15242,6 +15662,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15743,6 +16167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big_trash_bin prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 1809725292833654, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4884130492571914, guid: 331560f2206dc024cb084301a19c05ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: 61.759995
@@ -15805,6 +16233,10 @@ PrefabInstance:
     - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_Name
       value: RailingA (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15928,6 +16360,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 479892590}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2 (3)
@@ -15995,6 +16431,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (5)
@@ -17044,6 +17484,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.32
@@ -17174,6 +17622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.250004
@@ -17237,6 +17689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.310005
@@ -17299,6 +17755,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17367,6 +17827,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.52999
@@ -17433,6 +17901,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17513,6 +17985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pot_tree prefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1555850710414244, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4790015206267544, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.880005
@@ -17572,6 +18048,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (9)
@@ -18444,6 +18924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -19049,6 +19533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.154358
@@ -19195,6 +19683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -33.730003
@@ -19254,6 +19746,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (4)
@@ -19799,6 +20295,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.77
@@ -19862,6 +20366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.388275
@@ -19924,6 +20432,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
       propertyPath: m_Name
       value: Car 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 26e8d194fbf5bca409d8e2a931e7a028, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20147,6 +20659,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (7)
@@ -20356,6 +20872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -20500,6 +21020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -32.860004
@@ -20600,6 +21124,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (4)
@@ -20667,6 +21195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -20733,6 +21265,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20877,6 +21413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -20949,6 +21489,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21460,6 +22004,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.13
@@ -21970,6 +22522,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.399984
@@ -22103,6 +22663,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22615,6 +23179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.770004
@@ -22674,6 +23242,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab
@@ -22737,6 +23309,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850677572}
     m_Modifications:
+    - target: {fileID: 1059702496391702, guid: bbad862e7e06efe4a8ad0346a53e3cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1681277682126416, guid: bbad862e7e06efe4a8ad0346a53e3cde, type: 3}
       propertyPath: m_Name
       value: Building_N_Prefab
@@ -22812,6 +23388,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637902540}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2 (4)
@@ -23386,6 +23966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -23449,6 +24033,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (1)
@@ -23949,6 +24537,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road S-Curve
       objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 140742, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404980, guid: 70accd32f42b80b40a1a83ef93f9b293, type: 3}
       propertyPath: m_LocalPosition.x
       value: -50.144936
@@ -24008,6 +24604,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 479892590}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2 (2)
@@ -24081,6 +24681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (5)
@@ -24586,6 +25190,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.40000153
@@ -24648,6 +25260,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24715,6 +25331,18 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 42350cecc2959a246a2afc7215b375c5, type: 3}
       propertyPath: m_Name
       value: House_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 42350cecc2959a246a2afc7215b375c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 42350cecc2959a246a2afc7215b375c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 42350cecc2959a246a2afc7215b375c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 42350cecc2959a246a2afc7215b375c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25366,6 +25994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -25432,6 +26064,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 77034832b22fef34387efcaeb7127eaa, type: 3}
       propertyPath: m_Name
       value: Car 2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 77034832b22fef34387efcaeb7127eaa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 77034832b22fef34387efcaeb7127eaa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25534,6 +26170,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.3
@@ -25596,6 +26240,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25663,6 +26311,10 @@ PrefabInstance:
     - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_Name
       value: RailingA
+      objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26007,6 +26659,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (2)
@@ -26070,6 +26726,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (3)
@@ -26569,6 +27229,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27103,6 +27771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -27233,6 +27905,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.300003
@@ -27295,6 +27975,10 @@ PrefabInstance:
     - target: {fileID: 126966, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_Name
       value: Car 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 168356, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 420152, guid: 9c91ecea7f7dce04facaeb11c977e102, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27708,6 +28392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: House_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1875dbcb933847e438464aa6d4c6dc32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1875dbcb933847e438464aa6d4c6dc32, type: 3}
       propertyPath: m_LocalPosition.x
       value: 377.7118
@@ -27783,6 +28471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.910004
@@ -27852,6 +28544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -27915,6 +28611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (3)
@@ -27978,6 +28678,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (1)
@@ -28045,6 +28749,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.26
@@ -28111,6 +28823,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28737,6 +29453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -28809,6 +29529,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28883,6 +29607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -28949,6 +29677,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29023,6 +29755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.5999985
@@ -29089,6 +29825,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29891,6 +30631,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.40000153
@@ -30021,6 +30769,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30589,7 +31341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1685270278}
   m_Layer: 8
-  m_Name: GameObject
+  m_Name: Models
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30674,6 +31426,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30780,6 +31536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: prefab_umbrella2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1941131255985238, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 92
+      objectReference: {fileID: 0}
     - target: {fileID: 4584810022843652, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.5
@@ -30852,6 +31612,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (4)
@@ -30939,36 +31703,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &1710392239
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1710392240}
-  m_Layer: 0
-  m_Name: Road2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1710392240
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710392239}
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -11.900002, y: -13.588987, z: 55.09999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1787256605}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &1723162179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30976,6 +31710,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (8)
@@ -31039,6 +31777,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (7)
@@ -31256,6 +31998,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 637902540}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2 (3)
@@ -31815,6 +32561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -31878,6 +32628,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1582296123}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (9)
@@ -31944,6 +32698,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 1875dbcb933847e438464aa6d4c6dc32, type: 3}
       propertyPath: m_Name
       value: House_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 1875dbcb933847e438464aa6d4c6dc32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1875dbcb933847e438464aa6d4c6dc32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32038,7 +32796,6 @@ Transform:
   m_Children:
   - {fileID: 626111534}
   - {fileID: 741466369}
-  - {fileID: 1710392240}
   m_Father: {fileID: 1170920704}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
@@ -32052,6 +32809,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32119,6 +32880,10 @@ PrefabInstance:
     - target: {fileID: 1410262556438894, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_Name
       value: prefab_umbrella2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941131255985238, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 4584810022843652, guid: 6d9c7af437833a04aa8e1d96476b7d40, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34275,6 +35040,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.79
@@ -34346,13 +35119,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 863698395}
     m_Modifications:
+    - target: {fileID: 1186361931580308, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1674700864803382, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
       propertyPath: m_Name
       value: street_lamp 1 prefab (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4759262865471542, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.95877
+      value: 46.01
       objectReference: {fileID: 0}
     - target: {fileID: 4759262865471542, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
       propertyPath: m_LocalPosition.y
@@ -34360,7 +35137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759262865471542, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.292274
+      value: -10.65
       objectReference: {fileID: 0}
     - target: {fileID: 4759262865471542, guid: 6825a3fe8a1605f42a0d0589e582ac40, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34968,6 +35745,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 388425848}
     m_Modifications:
+    - target: {fileID: 132248, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 181422, guid: 8a6f09027b5c26b4b8d2f6d00dbce6d1, type: 3}
       propertyPath: m_Name
       value: Car 2
@@ -35035,6 +35816,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.13
@@ -35098,6 +35887,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850677572}
     m_Modifications:
+    - target: {fileID: 1184142013480454, guid: 9a52ba64c3a0abf49ad9515917ade04b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1213795830858570, guid: 9a52ba64c3a0abf49ad9515917ade04b, type: 3}
       propertyPath: m_Name
       value: Shop_B_prefab
@@ -35165,6 +35958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f6cfd9db11feb1b4a8448575304bd10f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f6cfd9db11feb1b4a8448575304bd10f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.29
@@ -35224,6 +36021,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1850677572}
     m_Modifications:
+    - target: {fileID: 1277488071553818, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1934853517836424, guid: 931ecb32d754b3f40afc9a688c8cea66, type: 3}
       propertyPath: m_Name
       value: Building_I_1_prefab
@@ -35350,6 +36151,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (6)
@@ -35422,6 +36227,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35506,7 +36319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994077447}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 52.72, y: 0.01, z: 42.800003}
+  m_LocalPosition: {x: 52.72, y: -0.09, z: 42.800003}
   m_LocalScale: {x: 26.015604, y: 0.000048852005, z: 26.917728}
   m_Children: []
   m_Father: {fileID: 388425848}
@@ -35584,6 +36397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -35651,6 +36468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36
@@ -35713,6 +36534,10 @@ PrefabInstance:
     - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_Name
       value: RailingA (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35783,6 +36608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RailingA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 162060, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 407154, guid: 64d88e2d5b08483419c0a8dee1d694dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.200005
@@ -35848,6 +36677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 388425848}
     m_Modifications:
+    - target: {fileID: 1222731060140294, guid: 01bbe20c855564648b02e0092e511cac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1505934643987248, guid: 01bbe20c855564648b02e0092e511cac, type: 3}
       propertyPath: m_Name
       value: Gas_station_A_PREFAB
@@ -35914,6 +36747,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36429,6 +37266,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37012,6 +37853,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.59
@@ -37119,6 +37968,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_Name
       value: ElegantBush (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37246,6 +38099,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 900442956}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (3)
@@ -37313,6 +38170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElegantBush (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 12d0eaee80b61c54aa11416db9a31366, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.1700134
@@ -37376,6 +38237,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1695319584}
     m_Modifications:
+    - target: {fileID: 1121850211589678, guid: 1be61187b5d765449be824463642cb0f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1276862051916332, guid: 1be61187b5d765449be824463642cb0f, type: 3}
       propertyPath: m_Name
       value: Tree prefab (1)
@@ -37535,6 +38400,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1422441099}
     m_Modifications:
+    - target: {fileID: 1026490736275818, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1228088659953116, guid: 80c5916b9606ce646be16611d9a06d13, type: 3}
       propertyPath: m_Name
       value: bench prefab (3)
@@ -38050,6 +38919,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Road Straight 2 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4
@@ -38112,6 +38989,14 @@ PrefabInstance:
     - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_Name
       value: Road Straight 2 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967263
+      objectReference: {fileID: 0}
+    - target: {fileID: 182628, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 404288, guid: b902c7d22d14fa843846ba35e963190b, type: 3}
       propertyPath: m_LocalPosition.x
