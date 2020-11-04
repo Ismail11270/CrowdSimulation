@@ -3,3 +3,4 @@ Library/
 obj/
 Packages/
 Logs/
+*.csproj
