@@ -1,0 +1,110 @@
+# Exported from Fuse 1.3.0
+
+newmtl Bottom
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Bottom_diffuse.png
+map_Ks model28_Bottom_specular.png
+bump model28_Bottom_normal.png
+map_Ns model28_Bottom_gloss.png
+
+newmtl Body
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Body_diffuse.png
+map_Ks model28_Body_specular.png
+bump model28_Body_normal.png
+map_Ns model28_Body_gloss.png
+
+newmtl Moustache
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Moustache_diffuse.png
+map_Ks model28_Moustache_specular.png
+bump model28_Moustache_normal.png
+map_Ns model28_Moustache_gloss.png
+
+newmtl Eyewear
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Eyewear_diffuse.png
+map_Ks model28_Eyewear_specular.png
+bump model28_Eyewear_normal.png
+map_Ns model28_Eyewear_gloss.png
+
+newmtl Hat
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Hat_diffuse.png
+map_Ks model28_Hat_specular.png
+bump model28_Hat_normal.png
+map_Ns model28_Hat_gloss.png
+
+newmtl Glove
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Glove_diffuse.png
+map_Ks model28_Glove_specular.png
+bump model28_Glove_normal.png
+map_Ns model28_Glove_gloss.png
+
+newmtl Shoes
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Shoes_diffuse.png
+map_Ks model28_Shoes_specular.png
+bump model28_Shoes_normal.png
+map_Ns model28_Shoes_gloss.png
+
+newmtl Top
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Top_diffuse.png
+map_Ks model28_Top_specular.png
+bump model28_Top_normal.png
+map_Ns model28_Top_gloss.png
+
+newmtl Beard
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 1.00 1.00
+map_Kd model28_Beard_diffuse.png
+map_Ks model28_Beard_specular.png
+bump model28_Beard_normal.png
+map_Ns model28_Beard_gloss.png
+
