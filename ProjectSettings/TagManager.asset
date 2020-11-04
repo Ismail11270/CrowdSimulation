@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -13,13 +14,8 @@ TagManager:
   - UI
   - 
   - 
-<<<<<<< HEAD
-  - Agents
-  - Non-walkable
-=======
   - 
   - 
->>>>>>> f8bc1a860146158caf07eb9b2b07c1a5a6ce4c16
   - 
   - 
   - 
