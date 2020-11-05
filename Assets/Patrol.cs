@@ -9,12 +9,14 @@ public class Patrol : MonoBehaviour
     public Transform[] points;
     private int destPoint = 0;
     private NavMeshAgent agent;
-
+    private Animator animator;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-
+        animator = GetComponent<Animator>();
+        agent.speed = Random.Range(0.5f, 3);
+        animator.speed = agent.speed*1.5f;
         // Disabling auto-braking allows for continuous movement
         // between points (ie, the agent doesn't slow down as it
         // approaches a destination point).
