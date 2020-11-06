@@ -16,10 +16,7 @@ public class Patrol : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         agent.speed = Random.Range(0.5f, 3);
-        animator.speed = agent.speed*1.5f;
-        // Disabling auto-braking allows for continuous movement
-        // between points (ie, the agent doesn't slow down as it
-        // approaches a destination point).
+        animator.speed = agent.speed*2f;
         agent.autoBraking = false;
 
         GotoNextPoint();
